@@ -1,6 +1,10 @@
 from abc import ABC, abstractmethod
 import math
 
+# OCP: Open/Closed Principle
+# Software entities should be open for extension but closed for modification.
+# Here, we can add new shapes without modifying existing code.
+
 class Shape(ABC):
     @abstractmethod
     def calculate_area(self) -> float:
