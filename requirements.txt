@@ -5,3 +5,4 @@ python-dotenv == 1.2.1
 langgraph == 1.0.5
 langchain-ollama == 1.0.1
 langchain-community == 0.4.1
+ipython
