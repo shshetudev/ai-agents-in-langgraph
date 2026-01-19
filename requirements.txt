@@ -2,7 +2,7 @@ openai == 2.15.0
 ollama == 0.6.1
 httpx == 0.28.1
 python-dotenv == 1.2.1
-langchain == 1.2.4
+langchain == 1.2.6
 langchain-tavily == 0.2.16
 langchain-text-splitters == 1.1.0
 langchain-chroma == 1.1.0
@@ -11,6 +11,8 @@ langchain-community == 0.4.1
 langchain-ollama == 1.0.1
 langchain-openai == 1.1.7
 langchain-google-genai == 4.2.0
+langchain-groq == 1.1.1
+langchain-experimental == 0.4.1
 langgraph == 1.0.5
 grandalf == 0.8
 pypdf == 6.6.0
