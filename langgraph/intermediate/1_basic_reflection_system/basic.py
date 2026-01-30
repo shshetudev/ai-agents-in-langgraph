@@ -36,9 +36,11 @@ graph.set_entry_point(GENERATE)
 graph.add_conditional_edges(GENERATE, should_continue)
 graph.add_edge(REFLECT, GENERATE)
 
+print('Printing ASCII representation of the graph:')
 app = graph.compile()
 print(app.get_graph().draw_mermaid())
 app.get_graph().print_ascii()
 
+print('\nProviding the result for the input message:')
 result = app.invoke({"messages": [HumanMessage(content="AI Agents taking over content creation")]})
-print(result)
+print(result['messages'][-1].content)
